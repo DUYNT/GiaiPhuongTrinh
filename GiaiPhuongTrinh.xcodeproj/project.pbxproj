@@ -13,6 +13,7 @@
 		56975B4419C181BD00941A13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56975B4319C181BD00941A13 /* Images.xcassets */; };
 		56975B4719C181BD00941A13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56975B4519C181BD00941A13 /* LaunchScreen.xib */; };
 		56975B5319C181BD00941A13 /* GiaiPhuongTrinhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56975B5219C181BD00941A13 /* GiaiPhuongTrinhTests.swift */; };
+		56975B5D19C1842C00941A13 /* GiaiPTBac2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56975B5C19C1842C00941A13 /* GiaiPTBac2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		56975B4C19C181BD00941A13 /* GiaiPhuongTrinhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiaiPhuongTrinhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56975B5119C181BD00941A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56975B5219C181BD00941A13 /* GiaiPhuongTrinhTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaiPhuongTrinhTests.swift; sourceTree = "<group>"; };
+		56975B5C19C1842C00941A13 /* GiaiPTBac2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiaiPTBac2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				56975B4319C181BD00941A13 /* Images.xcassets */,
 				56975B4519C181BD00941A13 /* LaunchScreen.xib */,
 				56975B3A19C181BD00941A13 /* Supporting Files */,
+				56975B5C19C1842C00941A13 /* GiaiPTBac2.swift */,
 			);
 			path = GiaiPhuongTrinh;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56975B3F19C181BD00941A13 /* ViewController.swift in Sources */,
+				56975B5D19C1842C00941A13 /* GiaiPTBac2.swift in Sources */,
 				56975B3D19C181BD00941A13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				56975B5819C181BD00941A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56975B5919C181BD00941A13 /* Build configuration list for PBXNativeTarget "GiaiPhuongTrinhTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				56975B5B19C181BD00941A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
